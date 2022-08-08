@@ -42,7 +42,7 @@ pipeline{
 
         stage('Deploy') {
             steps{
-                kubernetesDeploy configs: 'deploy/app1-deploy.yml', enableConfigSubstitution: true, kubeconfigId: 'K8S-KUBE'
+                kubernetesDeploy configs: 'deploy/app2-deploy.yml', enableConfigSubstitution: true, kubeconfigId: 'K8S-KUBE'
             }
         }
         
