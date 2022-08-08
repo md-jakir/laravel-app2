@@ -9,7 +9,7 @@ pipeline{
         TAG_NAME="${BUILD_NUMBER}"
         registry= "mdjakir/${JOB_BASE_NAME}"
         BRANCH_NAME="master"
-        GIT_REPO="https://github.com/md-jakir/laravel-app1.git"
+        GIT_REPO="https://github.com/md-jakir/laravel-app2.git"
     }
 	
     stages{
