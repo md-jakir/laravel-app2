@@ -18,8 +18,7 @@ spec:
         app: laravel-app2
     spec:
       containers:
-      #- image: mdjakir/laravel-app2:${TAG_NAME}
-      - image: devopsibcs/laravel-app2:${TAG_NAME}
+      - image: mdjakir/laravel-app2:${TAG_NAME}
         name: laravel-app2
         ports:
         - containerPort: 8000
